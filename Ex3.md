@@ -1,0 +1,2 @@
+The alert shows "Jack" first because it was declared within the function scope of the identity function and the first alert is within that scope.
+The second alert function call is made outside the scope of the identity function so the name object is undefined.
